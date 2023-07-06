@@ -1,0 +1,41 @@
+
+* {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+.list {
+    background-color: #7ac4e9;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.picture {
+    width: 600px;
+    height: auto;
+}
+
+.cartoon {
+    width: 400px;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.ing,
+.steps {
+    font-weight: bold;
+    background-color: #f5c4e0;
+    font-size: 20px;
+}
+
+.ing li,
+.steps li {
+    font-weight: normal;
+    font-size: 16px;
+}
