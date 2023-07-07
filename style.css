@@ -1,12 +1,35 @@
 
+/*
+Referenced
+https://www.w3schools.com/howto/howto_css_list_without_bullets.asp
+https://www.shecodes.io/athena/17496-how-to-remove-the-underline-of-a-link-in-css
+https://learn.shayhowe.com/html-css/creating-lists/#:~:text=The%20quickest%20way%20to%20display,space%20between%20each%20list%20item.
+*/
+
 * {
     font-family: "Trebuchet MS", sans-serif;
 }
 
 .list {
-    background-color: #7ac4e9;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.food {
+    background-color: #7ac4e9;
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 6px;
 }
 
 .picture {
@@ -19,18 +42,41 @@
     height: auto;
 }
 
+.cartoon,
+.picture {
+    border-style: solid;
+    border-color: black;
+}
+
 h1 {
     text-align: center;
+    color: #7ac4e9;
+}
+
+.top {
+    text-align: center;
+}
+
+.top h1 {
+    color: #f197ca;
 }
 
 h3 {
     font-size: 20px;
 }
 
+.prep {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
 .ing,
 .steps {
     font-weight: bold;
     background-color: #f5c4e0;
+    display: inline-block;
+    margin: 20px auto;
     font-size: 20px;
 }
 
@@ -38,4 +84,11 @@ h3 {
 .steps li {
     font-weight: normal;
     font-size: 16px;
+}
+
+.desc {
+    border-style: solid;
+    border-color: #f5c4e0;
+    display: inline-block;
+    padding: 0 5px;
 }
